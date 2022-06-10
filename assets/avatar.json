@@ -1,0 +1,48 @@
+{
+  "version": 0.1,
+  "charName": "",
+  "title": "Doctor",
+  "faceType": 3,
+  "hairType": 12,
+  "skinColor": [
+    0.4905659854412079,
+    0.2985047996044159,
+    0.3334251046180725
+  ],
+  "bodyType": 3,
+  "hairColor": [
+    0.5115566849708557,
+    0.4858491122722626,
+    1
+  ],
+  "careerOutfit": "doctor",
+  "careerAccessory": "doctor",
+  "careerBackground": "doctor",
+  "chosenCareers": [],
+  "unlockedCareers": [
+    "astronaut",
+    "labtech",
+    "lawyer",
+    "interpreter",
+    "techwriter",
+    "fashiondesigner",
+    "schoolteacher",
+    "forester",
+    "supplychain",
+    "communityservice",
+    "energy",
+    "programmer",
+    "materialscientist",
+    "pilot",
+    "accountant",
+    "firefighter",
+    "researcher",
+    "airplanemechanic",
+    "healthsafety",
+    "salesperson",
+    "socialworker",
+    "fundraiser",
+    "videoeditor",
+    "doctor"
+  ]
+}

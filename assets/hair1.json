@@ -1,0 +1,347 @@
+{
+	"frames": {
+		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair1_Back_Shaded.png": {
+			"frame": { "x":0,"y":1725,"w":482,"h":323 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":109,"y":43,"w":482,"h":323},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair12_Front_Shaded.png": {
+			"frame": { "x":1016,"y":497,"w":319,"h":199 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":139,"y":103,"w":319,"h":199},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair22_Front_Shaded.png": {
+			"frame": { "x":1325,"y":972,"w":309,"h":262 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":163,"y":62,"w":309,"h":262},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair23_Front_Shaded.png": {
+			"frame": { "x":1600,"y":766,"w":315,"h":204 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":141,"y":98,"w":315,"h":204},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair1_Front_Shaded.png": {
+			"frame": { "x":1609,"y":1350,"w":399,"h":182 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":126,"y":106,"w":399,"h":182},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair2_Back_Shaded.png": {
+			"frame": { "x":724,"y":643,"w":290,"h":307 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":134,"y":150,"w":290,"h":307},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair24_Front_Shaded.png": {
+			"frame": { "x":0,"y":739,"w":387,"h":307 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":116,"y":21,"w":387,"h":307},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair8_Front_Shaded.png": {
+			"frame": { "x":309,"y":207,"w":389,"h":270 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":136,"y":59,"w":389,"h":270},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair16_Front_Shaded.png": {
+			"frame": { "x":1801,"y":1860,"w":178,"h":188 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":221,"y":28,"w":178,"h":188},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair8_Back_Shaded.png": {
+			"frame": { "x":1103,"y":302,"w":278,"h":193 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":216,"y":54,"w":278,"h":193},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair3_Front_Shaded.png": {
+			"frame": { "x":1394,"y":1534,"w":399,"h":205 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":126,"y":106,"w":399,"h":205},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair18_Front_Shaded.png": {
+			"frame": { "x":309,"y":479,"w":413,"h":258 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":82,"y":94,"w":413,"h":258},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair9_Front_Shaded.png": {
+			"frame": { "x":1337,"y":497,"w":319,"h":199 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":139,"y":103,"w":319,"h":199},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair20_Front_Shaded.png": {
+			"frame": { "x":394,"y":952,"w":367,"h":296 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":115,"y":98,"w":367,"h":296},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair10_Front_Shaded.png": {
+			"frame": { "x":0,"y":23,"w":399,"h":182 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":126,"y":106,"w":399,"h":182},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair12_Back_Shaded.png": {
+			"frame": { "x":0,"y":1400,"w":482,"h":323 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":109,"y":43,"w":482,"h":323},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair14_Front_Shaded.png": {
+			"frame": { "x":484,"y":1629,"w":356,"h":419 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":147,"y":91,"w":356,"h":419},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair13_Front_Shaded.png": {
+			"frame": { "x":1325,"y":698,"w":273,"h":272 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":170,"y":118,"w":273,"h":272},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair5_Front_Shaded.png": {
+			"frame": { "x":1480,"y":1849,"w":319,"h":199 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":139,"y":103,"w":319,"h":199},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair17_Front_Shaded.png": {
+			"frame": { "x":484,"y":1250,"w":368,"h":377 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":147,"y":82,"w":368,"h":377},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair11_Front_Shaded.png": {
+			"frame": { "x":1208,"y":1236,"w":399,"h":205 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":126,"y":106,"w":399,"h":205},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair19_Front_Shaded.png": {
+			"frame": { "x":0,"y":1048,"w":392,"h":350 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":117,"y":20,"w":392,"h":350},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair21_Front_Shaded.png": {
+			"frame": { "x":1383,"y":307,"w":281,"h":188 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":175,"y":104,"w":281,"h":188},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair3_Back_Shaded.png": {
+			"frame": { "x":700,"y":275,"w":401,"h":202 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":99,"y":130,"w":401,"h":202},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair10_Back_Shaded.png": {
+			"frame": { "x":1188,"y":1741,"w":290,"h":307 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":134,"y":150,"w":290,"h":307},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair2_Front_Shaded.png": {
+			"frame": { "x":0,"y":380,"w":307,"h":357 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":144,"y":103,"w":307,"h":357},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair15_Front_Shaded.png": {
+			"frame": { "x":700,"y":94,"w":289,"h":179 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":169,"y":119,"w":289,"h":179},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair4_Front_Shaded.png": {
+			"frame": { "x":1016,"y":865,"w":307,"h":265 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":144,"y":103,"w":307,"h":265},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair5_Back_Shaded.png": {
+			"frame": { "x":1658,"y":571,"w":278,"h":193 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":216,"y":54,"w":278,"h":193},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair25_Front_Shaded.png": {
+			"frame": { "x":854,"y":1132,"w":352,"h":238 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":126,"y":100,"w":352,"h":238},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairBackTextures/Avatar_Hair4_Back_Shaded.png": {
+			"frame": { "x":1105,"y":1443,"w":287,"h":296 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":155,"y":150,"w":287,"h":296},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair7_Front_Shaded.png": {
+			"frame": { "x":1636,"y":1165,"w":209,"h":183 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":106,"y":98,"w":209,"h":183},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair26_Front_Shaded.png": {
+			"frame": { "x":842,"y":1762,"w":344,"h":286 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":124,"y":23,"w":344,"h":286},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HairFrontTextures/Avatar_Hair6_Front_Shaded.png": {
+			"frame": { "x":854,"y":1372,"w":249,"h":388 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":152,"y":82,"w":249,"h":388},
+			"sourceSize": { "w":600,"h":530},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+	},
+	"meta": {
+		"image": "hair1.png"
+	}
+}

@@ -22,7 +22,7 @@ function toDataURL(src, callback, outputFormat)
     }
 }
 
-function drawIMG(dataURL, coords)
+function drawIMG(dataURL, coords, partType)
 {
     var myCanvas = document.getElementById('myCanvas');
     var ctx = myCanvas.getContext('2d');
@@ -30,7 +30,34 @@ function drawIMG(dataURL, coords)
     img.onload = function(){
         //https://www.w3schools.com/tags/canvas_drawimage.asp
         coordsArr= coords.split(",");
-        ctx.drawImage(img,coordsArr[0] - coordsArr[2],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+
+        switch (partType) {
+            case 'head':
+                ctx.drawImage(img,coordsArr[0] - coordsArr[2],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+                break;
+            case 'hair_front':
+                //Hair equation
+                //width: is frame x + source size w
+                //height: is frame y + spriteSourceSize h
+                var width = (parseInt(coordsArr[0]) + parseInt(coordsArr[2]));
+                var height = (parseInt(coordsArr[1]) + parseInt(coordsArr[3]));
+                console.log(width + "," + height + "," + coordsArr[2] + "," + coordsArr[3] + "," + coordsArr[4] + "," + coordsArr[5] + "," + coordsArr[6] + "," + coordsArr[7]);
+                console.log("Displaying hair front");
+                ctx.drawImage(img,width,height,coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+                break;
+            case 'hair_back':
+                //Hair equation
+                //width: is frame x + source size w
+                //height: is frame y + spriteSourceSize h
+                var width = (parseInt(coordsArr[0]) + parseInt(coordsArr[2]));
+                var height = (parseInt(coordsArr[1]) + parseInt(coordsArr[3]));
+                console.log(width + "," + height + "," + coordsArr[2] + "," + coordsArr[3] + "," + coordsArr[4] + "," + coordsArr[5] + "," + coordsArr[6] + "," + coordsArr[7]);
+                console.log("Displaying hair back");
+                ctx.drawImage(img,width,height,coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+                break;
+            default:
+                break;
+        }
     };
     img.src = dataURL;
 }
@@ -42,33 +69,35 @@ function init()
     
     var hairFront = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair1.png',
-        'coords' : '1016,497,319,199,0,0,600,530'
+        'coords' : '1016,497,319,199,0,0,319,199',
+        'type': "hair_front"
     };
 
+    //Hair equation
+    //0: is frame x + source size w
+    //1: is frame y + spriteSourceSize h
     var hairBack = {
-        'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair1.png',
-        'coords' : '0,1400,482,323,0,0,600,530'
+        'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair2.png',
+        'coords' : '0,1400,482,323,0,0,356,419',
+        'type': "hair_back"
     }
 
     var head = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/head.png',
-        'coords' : '696,1244,187,153,13,44,187,176'
+        'coords' : '696,1244,187,153,13,250,187,176',
+        'type': "head"
     }
-
-    //Note coords need to be the x position subtracted by the width of the element. So to get Face 3 to load
-    //coords 696 - 187 = 
-    
     
     images.push(head);
-    //images.push(hairFront);
-    //images.push(hairBack);
+    images.push(hairFront);
+    images.push(hairBack);
 
     images.forEach(element => {
         console.log(element);
         toDataURL(element.url, function(dataUrl) {
             console.log('RESULT:', dataUrl);
             imgURL = dataUrl;
-            drawIMG(imgURL, element.coords);
+            drawIMG(imgURL, element.coords, element.type);
         });
     });
 }

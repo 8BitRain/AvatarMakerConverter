@@ -1,0 +1,167 @@
+{
+	"frames": {
+		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face3_Painted.png": {
+			"frame": { "x":0,"y":992,"w":172,"h":132 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":13,"y":44,"w":172,"h":132},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face7_Painted.png": {
+			"frame": { "x":0,"y":851,"w":156,"h":139 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":15,"y":4,"w":156,"h":139},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face4_Painted.png": {
+			"frame": { "x":507,"y":1244,"w":187,"h":153 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":8,"w":187,"h":153},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face2_Painted.png": {
+			"frame": { "x":643,"y":1569,"w":183,"h":176 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":4,"y":0,"w":183,"h":176},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face5_Painted.png": {
+			"frame": { "x":511,"y":1093,"w":175,"h":149 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":12,"y":12,"w":175,"h":149},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face9_Painted.png": {
+			"frame": { "x":322,"y":1285,"w":183,"h":157 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":4,"y":0,"w":183,"h":157},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face8_Painted.png": {
+			"frame": { "x":688,"y":1100,"w":177,"h":142 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":8,"w":177,"h":142},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face6_Painted.png": {
+			"frame": { "x":643,"y":1399,"w":187,"h":168 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":8,"w":187,"h":168},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face10_Painted.png": {
+			"frame": { "x":322,"y":1097,"w":187,"h":145 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":8,"w":187,"h":145},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/FaceTextures/Avatar_Face1_Painted.png": {
+			"frame": { "x":696,"y":1244,"w":187,"h":153 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":8,"w":187,"h":153},
+			"sourceSize": { "w":187,"h":176},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head1_Solid.png": {
+			"frame": { "x":0,"y":1434,"w":320,"h":306 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":0,"w":320,"h":306},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head2_Solid.png": {
+			"frame": { "x":322,"y":1444,"w":319,"h":301 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x":0,"y":5,"w":319,"h":301},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head1_Shaded.png": {
+			"frame": { "x":0,"y":1126,"w":320,"h":306 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":0,"w":320,"h":306},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head1_Painted.png": {
+			"frame": { "x":0,"y":1742,"w":320,"h":306 },
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": { "x":0,"y":0,"w":320,"h":306},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head2_Painted.png": {
+			"frame": { "x":322,"y":1747,"w":319,"h":301 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x":0,"y":5,"w":319,"h":301},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+,		"Assets/Textures/CharacterTextures/HeadTextures/Avatar_Head2_Shaded.png": {
+			"frame": { "x":643,"y":1747,"w":319,"h":301 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x":0,"y":5,"w":319,"h":301},
+			"sourceSize": { "w":320,"h":306},
+			"border": { "x":0,"y":0,"z":0,"w":0 },
+			"pixelsPerUnit": 100,
+			"pivot": { "x":0.5,"y":0.5}
+		}
+	},
+	"meta": {
+		"image": "head.png"
+	}
+}

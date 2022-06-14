@@ -30,7 +30,7 @@ function drawIMG(dataURL, coords)
     img.onload = function(){
         //https://www.w3schools.com/tags/canvas_drawimage.asp
         coordsArr= coords.split(",");
-        ctx.drawImage(img,coordsArr[0],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+        ctx.drawImage(img,coordsArr[0] - coordsArr[2],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
     };
     img.src = dataURL;
 }
@@ -40,19 +40,28 @@ function init()
     var imgURL;
     var images = [];
     
-    var hair = {
+    var hairFront = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair1.png',
         'coords' : '1016,497,319,199,0,0,600,530'
     };
 
+    var hairBack = {
+        'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair1.png',
+        'coords' : '0,1400,482,323,0,0,600,530'
+    }
+
     var head = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/head.png',
-        'coords' : '0,992,172,132,13,44,187,176'
+        'coords' : '696,1244,187,153,13,44,187,176'
     }
+
+    //Note coords need to be the x position subtracted by the width of the element. So to get Face 3 to load
+    //coords 696 - 187 = 
     
     
     images.push(head);
-    images.push(hair);
+    //images.push(hairFront);
+    //images.push(hairBack);
 
     images.forEach(element => {
         console.log(element);

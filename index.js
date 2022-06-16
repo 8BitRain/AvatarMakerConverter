@@ -32,6 +32,9 @@ function drawIMG(dataURL, coords, partType)
         coordsArr= coords.split(",");
 
         switch (partType) {
+            case 'eyes':
+                ctx.drawImage(img,coordsArr[0] - coordsArr[2],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
+                break;
             case 'head':
                 ctx.drawImage(img,coordsArr[0] - coordsArr[2],coordsArr[1],coordsArr[2],coordsArr[3],coordsArr[4],coordsArr[5],coordsArr[6],coordsArr[7]);
                 break;
@@ -69,7 +72,7 @@ function init()
     
     var hairFront = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair1.png',
-        'coords' : '1016,497,319,199,0,0,319,199',
+        'coords' : '1016,497,319,199,30,135,319,199',
         'type': "hair_front"
     };
 
@@ -78,17 +81,27 @@ function init()
     //1: is frame y + spriteSourceSize h
     var hairBack = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/hair2.png',
-        'coords' : '0,1400,482,323,0,0,356,419',
+        'coords' : '0,544,433,480,0,0,433,480',
         'type': "hair_back"
+    }
+
+    var eyes = {
+        'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/head.png',
+        'coords' : '696,1244,187,153,13,250,187,176',
+        'type': "eyes"
     }
 
     var head = {
         'url' : 'https://rtl-tpt.github.io/WebTest/assets/src/unity/head.png',
-        'coords' : '696,1244,187,153,13,250,187,176',
+        'coords' : '322,1747,319,301,0,150,319,301',
         'type': "head"
     }
+
+    var head
+
     
     images.push(head);
+    images.push(eyes);
     images.push(hairFront);
     images.push(hairBack);
 
